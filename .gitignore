@@ -1,0 +1,24 @@
+# ── Secrets / config (НИКОГДА не коммитить) ──
+.env
+token.txt
+*.session
+*.session-journal
+
+# ── Runtime data ──
+users.json
+emoji_set.txt
+custom_emoji.json
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# ── Editor / OS / tooling ──
+.claude/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
